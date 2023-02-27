@@ -1,0 +1,19 @@
+DOM - Document Object Model
+Accessing the DOM
+    document.getElementById("id").innerHtml = "new text";
+
+
+Operators
+= Assignment operator - Assigns a value to a variable
+== Equality operator - Compares two values (equal to)
+=== Strict equality operator - Compares two values and checks that both the data type and value are the same
+!= Inequality operator - Compares two values (not equal to)
++ Addition operator - Adds two operands
+- Subtraction operator - Subtracts two operands
+* Multiplication operator - Multiplies two operands
+/ Division operator - Divides two operands
+
+Variable
+
+Camel casing - first word is lowercase, and the first letter of each subsequent word is capitalized (firstDayOfTheMonth)
+Snake casing - all lowercase, and each word is separated by an underscore (first_day_of_the_month)

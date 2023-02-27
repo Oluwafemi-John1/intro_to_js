@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="enter the first value" id="firstValue">
+    <input type="text" placeholder="enter the second value" id="secondValue">
+
+    <div id="two"></div>
+
+    <button onclick="multiply()">Multiply</button>
+    <button onclick="divide()">Division</button>
+    <button onclick="subtract()">Subtraction</button>
+
+    <script>
+    //    document.getElementById("two").innerHTML = "Hello World";
+    //    document.getElementById("firstValue").value = 10;
+        function multiply() {
+            // alert("I am working")
+            var numberOne = document.getElementById("firstValue").value;
+            var numberTwo = document.getElementById("secondValue").value;
+            alert(numberOne * numberTwo);
+        }
+
+        function divide () {
+            // alert ("I am working")
+            var numberOne = document.getElementById("firstValue").value;
+            var numberTwo = document.getElementById("secondValue").value;
+            alert(numberOne / numberTwo);
+        }
+    </script>
+</body>
+</html>
