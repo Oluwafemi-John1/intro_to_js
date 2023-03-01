@@ -15,6 +15,12 @@ Operators
 - Subtraction operator - Subtracts two operands
 * Multiplication operator - Multiplies two operands
 / Division operator - Divides two operands
+&& Logical AND operator - Returns true if both operands are true
+|| Logical OR operator - Returns true if one of the operands is true
+! Logical NOT operator - Reverses the result of an expression
+% Modulus operator - Returns the remainder of two operands
+++ Increment operator - Increases the value of an operand by 1
+-- Decrement operator - Decreases the value of an operand by 1
 
 Variable
 
@@ -29,3 +35,10 @@ Data Types in Javascript
     Object - {name: "John", age: 30}
     Undefined
     Null
+
+0-39 Fail F
+40-44 Pass E
+45-49 Average D
+50-59 Credit C
+60-69 Good B
+70-100 Excellent A
